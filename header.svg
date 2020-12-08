@@ -80,7 +80,7 @@
 					text-shadow: 0 1px 0 #efefef;
 					animation: 5s ease 0s normal forwards 1 fadeIn;
 				}
-				[data-color-mode=dark] > .logo-readme-container{
+				[data-color-mode=dark]  .logo-readme-container{
 					display: none;
 				}
 			</style>
