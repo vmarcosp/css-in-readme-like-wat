@@ -35,7 +35,7 @@
 					}
 				}
 
-				.container {
+				.readme-logo-container {
 					font-family:
 						system-ui,
 						-apple-system,
@@ -80,8 +80,12 @@
 					text-shadow: 0 1px 0 #efefef;
 					animation: 5s ease 0s normal forwards 1 fadeIn;
 				}
+				[data-color-mode=dark] > .readme-logo-container{
+					display: none;
+				}
+				
 			</style>
-			<div class="container">
+			<div class="readme-logo-container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
 				<p>Click to see the source</p>
 			</div>
